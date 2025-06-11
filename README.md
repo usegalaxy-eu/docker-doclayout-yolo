@@ -4,11 +4,13 @@
 
 [DocLayout-YOLO: Enhancing Document Layout Analysis through Diverse Synthetic Data and Global-to-Local Adaptive Perception](https://github.com/opendatalab/DocLayout-YOLO)
 
+The Docker image is currently hosted under: https://quay.io/repository/galaxy/doclayout-yolo?tab=tags
+
 ### Run the image
 
 You can start the container outside of Galaxy with:
 
 ```bash
-docker run -i -t --rm -v /path/to/infile.tiff:/opt/infile.tiff quay.io/galaxy/some-image-name:0.4.3 bash
+docker run -i -t --rm -v /path/to/infile.tiff:/opt/infile.tiff quay.io/galaxy/doclayout-yolo:0.0.4 bash
 ```
 
