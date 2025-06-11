@@ -16,5 +16,5 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /workspace
 
-RUN pip install --no-cache-dir doclayout-yolo==0.0.4
+RUN pip install --no-cache-dir huggingface_hub doclayout-yolo==0.0.4
 RUN python -c "import doclayout_yolo"
